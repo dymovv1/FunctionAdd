@@ -1,0 +1,56 @@
+.block-input {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.input {
+    width: 125px;
+}
+
+label {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+body {
+    padding: 50px 0;
+}
+
+.wrapper-inputs {
+    display: flex;
+    max-width:800px;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#description {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.textarea-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.textarea {
+    width: 500px;
+}
+.button {
+    font-weight: 500;
+    color: white;
+    padding: 10px 5px;
+    text-transform: uppercase;
+}
